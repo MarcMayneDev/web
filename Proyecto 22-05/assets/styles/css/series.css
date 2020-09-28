@@ -1,0 +1,9 @@
+/* Indicamos el tamaño de la imagen y su posición. */ 
+.card-img-top {
+    padding: 6px;
+    height: 225px;
+    width: 100%;
+    display: block;
+    object-fit: contain;
+    object-position: center center;
+}

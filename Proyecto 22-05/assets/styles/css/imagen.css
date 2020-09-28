@@ -1,0 +1,22 @@
+/* Establecemos la altura y el ancho en función del ancho de la pantalla.  */
+/* Hacemos que la imagen ocupe el espacio disponible. */
+#thumbnail {
+    height: 12vw;
+    width: 12vw;
+    object-fit: cover;
+}
+
+/* Quitamos la scrollbar en la label. */
+/*Añade 3 puntos en caso de ser demasiado largo el texto. */
+.custom-file-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Establecemos la altura y el ancho maximos de las imágenes */
+@media (max-width:1024px) {
+    #thumbnail {
+        height: 40vw;
+        width: 40vw;
+    }
+}

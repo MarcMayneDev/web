@@ -1,0 +1,14 @@
+/* CambiamoS el fondo de los elementos con clase dropdown menu  */
+.dropdown-menu {
+  background-color: #343940 !important;
+}
+/* Cambiamos el fondo y el color de fuente en los elementos con clase dropdown item */
+.dropdown-item {
+  background-color: #343940 !important;
+  color: rgba(255,255,255,.5) !important;
+}
+/* Cambiamos el color de fondo y el de la fuente al pasar por encima de los dropdown items */
+.dropdown-item:hover {
+  background-color: #343940 !important;
+  color: rgba(255,255,255,1) !important;
+}

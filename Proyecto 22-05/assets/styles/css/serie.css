@@ -1,0 +1,13 @@
+/* Se cambia el color de fondo. */
+html, body {
+  height: 100%;
+  background-color:#586C80;
+}
+
+.img-serie {
+  height: 200px;
+  width: 100%;
+  display: block;
+  object-fit: contain;
+  object-position: center center;
+}

@@ -1,0 +1,17 @@
+/* Se cambia el color de fondo. */
+html, body {
+  height: 100%!important;
+  background-color: #8DACCC;
+}
+/* Indicamos el color de fondo en la card. */
+.card {
+  background-color:#586C80;
+}
+/* Indicamos que las hr sean de color blanco. */
+hr {
+  border-color: #FFF;
+}
+/* Cambiamos el tipo de letra para que el link no aparezca en azul.*/
+.change_link:hover {
+  text-decoration: none;
+}

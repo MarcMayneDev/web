@@ -1,0 +1,9 @@
+/* Se cambia el color de fondo. */
+html, body {
+  height: 100%;
+  background-color: #8DACCC;
+}
+/* Indicamos el color de fondo en la card. */
+.card, .jumbotron {
+  background-color:#586C80 !important;
+}
